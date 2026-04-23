@@ -1,0 +1,23 @@
+{
+  "id": "/",
+  "name": "Vyhledání dopravy",
+  "short_name": "Doprava",
+  "description": "Vyhledání dopravců, služeb a cen podle státu a váhy zásilky.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "src": "/public/icon/android-icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/public/icon/android-icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
