@@ -1,0 +1,11 @@
+services:
+  dopravci:
+    build: .
+    restart: always
+    ports:
+      - "9064:80"
+    environment:
+      - POSTGRES_HOST=
+      - POSTGRES_USER=
+      - POSTGRES_PASSWORD=
+      - POSTGRES_DB=
